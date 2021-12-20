@@ -1,0 +1,109 @@
+button:active{
+  transform: scale(0.98);
+}
+p{
+  margin-top:0px;
+  margin-bottom:10px;
+}
+
+/* globals....css at the top */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.myCustomDate{
+  border:none;
+  width:20vh
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center
+}
+.maincard{
+    width: 100%;
+    
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.container{
+  width: 50%;
+}
+@media only screen and (max-width: 600px) {
+  .container{
+    width: 100%;
+  }
+ 
+  
+}
+
+.user{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  align-items: center;
+  color:rgba(117, 117, 117, 1);
+  font-style:italic;
+}
+.btnme{
+  margin: 3px;
+    margin-top: 20px;
+    padding: 3px 10px;
+    font-size: small;
+    background-color: #212529;
+    color: white ;
+}
+
+a{
+  color:white;
+}
+button:hover a:hover{
+  color:white !important;
+  text-decoration:none
+}
+
+.myIcons a{
+  color:rgba(117, 117, 117, 1);
+   cursor: pointer;
+   margin-bottom: 10px;
+}
+.myIcons{
+  color: rgba(117, 117, 117, 1);
+  padding: 6px;
+  font-size: 22px;
+  cursor: pointer;
+}
