@@ -33,9 +33,11 @@ connection.once('open', () => {
 
 const exercisesRouter = require('./routes/exercises');
 const usersRouter = require('./routes/users');
+const postsRoute = require('./routes/posts');
 
 app.use('/exercises', exercisesRouter);
 app.use('/users', usersRouter);
+app.use('/posts',postsRoute);
 
 app.get("/",(req,res)=>{
   res.send("Hello World Heroku");
